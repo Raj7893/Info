@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.s1, .s2, .sst1{
+    padding: 10px 25vw;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    
+}
+
+.s1{
+    display:grid;
+grid-template-columns:4fr 1fr 1fr 1fr 1fr;
+font-size: 20px;
+align-items: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.s2{
+    background-color: #F1F3F4;
+    color: #2c3233;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+
+}
+button{
+   
+   
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0 0 #000;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 35px;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 20px;
+    background-color: white;
+}
+.ad12{
+    display:grid;
+grid-template-columns:1fr 1fr;
+padding:40px 0px 20px 0px;
+font-size: 20px;
+}
+.ra4{
+    text-align: center;
+}
+.sst1{
+    background-color: #F1F3F4;
+    padding: 10px 30px 10px 20px ;  
+    position:sticky;
+    top:0;
+    right:0; 
+}
+.s2 h1{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.s3{
+    padding-top: 50px;
+}
+.project {
+    padding-left: 10px;
+}
+
+
+/* ========================= */
+/* 📱 Mobile (max 600px) */
+/* ========================= */
+@media (max-width: 600px) {
+
+    .s1, .s2, .sst1 {
+        padding: 10px 5vw;
+    }
+
+    .s1 {
+        grid-template-columns: 1fr;
+        font-size: 16px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .ad12 {
+        grid-template-columns: 1fr;
+        font-size: 16px;
+        gap: 20px;
+    }
+
+    .s2 h1 {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 0 20px;
+        line-height: 40px;
+    }
+}
+
+
+/* ========================= */
+/* 💻 Tablet (601px–1024px) */
+/* ========================= */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .s1, .s2, .sst1 {
+        padding: 10px 10vw;
+    }
+
+    .s1 {
+        grid-template-columns: 2fr 1fr 1fr;
+        font-size: 18px;
+        gap: 15px;
+    }
+
+    .ad12 {
+        grid-template-columns: 1fr 1fr;
+        font-size: 18px;
+        gap: 20px;
+    }
+
+    .s2 h1 {
+        font-size: 26px;
+    }
+
+    button {
+        font-size: 17px;
+        padding: 0 25px;
+    }
+}
